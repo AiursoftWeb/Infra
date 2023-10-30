@@ -245,6 +245,12 @@ AppToken 由 AppId、权限列表、过期时间、签名、Scope 组成。
 
 AppToken 的生成采用三段式：`{type}`.`{content}`.`{signature}`。
 
+### FrequencyLimiter
+
+FrequencyLimiter 是一个服务器类，用于限制某个操作的频率。它会在数据库中记录某个操作的次数，然后在一段时间内限制某个操作的次数。
+
+当有新操作来临时，它会查询表：`PermissionUseLogs`，然后统计某个操作在一段时间内的次数。如果超过了限制，则会抛出错误。如果没有超过限制，则会记录一条新的操作记录。
+
 ### TokenGenerator
 
 TokenGenerator 是一个 SDK 类，用于生成 AppToken。
