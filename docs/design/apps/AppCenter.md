@@ -1,4 +1,4 @@
-# AppCenter应用设计
+# AppCenter 应用设计
 
 ## 功能概括
 
@@ -37,8 +37,8 @@ Permissions 是一个权限表。其权限是以这个 App 的行为，在整个
 Permissions 具有的属性有：
 
 * ID, 自增长的 ID。
-* BelongToAppId，权限所属的 App 的 AppId。
 * PermissionId，权限的唯一标识符。是一串 GUID。
+* BelongToAppId，权限所属的 App 的 AppId。
 * PermissionTag，权限的标签。这是为了方便在前端显示的。例如：`Apps`，`Buckets`，`Files`。
 * PermissionName，权限的名称。用来给用户看的。例如：`查看所有 App`，`查看所有 Bucket`。
 * PermissionDescription，权限的描述，用来给用户看的。
@@ -212,7 +212,7 @@ AdminAppsManagement:
 AdminPermissionPublish:
 
 * PublishPermission (限制权限 `appsManagement:permissionPublish:publish`，注意操作的 AppId 是取自 Scope 的而不是 Token 本身的。)
-* QueryPermission (限制权限 `appsManagement:permissionPublish:query`，注意操作的 AppId 是取自 Scope 的而不是 Token 本身的。）
+* QueryPermission (限制权限 `appsManagement:permissionPublish:query`，注意操作的 AppId 是取自 Scope 的而不是 Token 本身的。)
 * EditPermission (限制权限 `appsManagement:permissionPublish:edit`，注意操作的 AppId 是取自 Scope 的而不是 Token 本身的。)
 * DeletePermission (限制权限 `appsManagement:permissionPublish:delete`，注意操作的 AppId 是取自 Scope 的而不是 Token 本身的。)
 
