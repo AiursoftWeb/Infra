@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aiursoft.Infra.ApiApp.Framework\Aiursoft.Infra.ApiApp.Framework.csproj" />
+    <ProjectReference Include="..\Aiursoft.Infra.AppCenter.Sdk\Aiursoft.Infra.AppCenter.Sdk.csproj" />
+  </ItemGroup>
+
+</Project>

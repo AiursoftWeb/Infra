@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aiursoft.Infra.WebShared\Aiursoft.Infra.WebShared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aiursoft.AiurProtocol.Server" Version="7.0.11" />
+    <PackageReference Include="Aiursoft.DocGenerator" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

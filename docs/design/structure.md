@@ -8,7 +8,8 @@ stateDiagram-v2
     Radio --> Observer
     Portal --> Radio
     Portal --> Buckets
-    Observer --> AppCenter
+    Observer --> Subscriptions
+    Subscriptions --> AppCenter
     Directory --> Observer
     Buckets --> Observer
 ```
@@ -31,22 +32,23 @@ stateDiagram-v2
     AppCenter --> AppCenter.Sdk
     AppCenter.Tests --> AppCenter
     AppCenter.Sdk --> Sdk.Framework
-    Observer --> ApiApp.Framework
-    Observer --> AppCenter.Sdk
-    Observer --> Observer.Sdk
-    Observer.Tests --> Observer
-    Observer.Sdk --> Sdk.Framework
+    Subscriptions --> ApiApp.Framework
+    Subscriptions --> AppCenter.Sdk
+    Subscriptions --> Subscriptions.Sdk
+    Subscriptions.Tests --> Subscriptions
+    Subscriptions.Sdk --> Sdk.Framework
 ```
 
 ## 开发顺序
 
 1. AppCenter (API App)
-2. Observer (API App)
-3. Buckets (API App)
-4. Directory (API App)
-5. Radio (API App)
-6. Gateway (Human App)
-7. Portal (Human App)
+2. Subscriptions (API App)
+3. Observer (API App)
+4. Buckets (API App)
+5. Directory (API App)
+6. Radio (API App)
+7. Gateway (Human App)
+8. Portal (Human App)
 
 ## 可以后续额外提供的服务
 

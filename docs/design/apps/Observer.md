@@ -1,5 +1,7 @@
 # Observer 应用设计
 
+需要重构！！新的 Observer 必须属于一个 Subscription，而不是一个单独的App。 Observer 本身也是实例而必须被创建！
+
 ## 功能概括
 
 负责基于 AppCenter 颁发的 Token，对应用程序进行监控的服务。
