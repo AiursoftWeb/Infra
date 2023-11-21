@@ -1,18 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Aiursoft.Infra.WebShared</AssemblyName>
+    <RootNamespace>Aiursoft.Infra.WebShared</RootNamespace>
+    <IsTestProject>false</IsTestProject>
+    <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Aiursoft.Infra.Shared\Aiursoft.Infra.Shared.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Aiursoft.DbTools" Version="7.0.8" />
     <PackageReference Include="Aiursoft.WebTools" Version="7.0.9" />
   </ItemGroup>
-
 </Project>

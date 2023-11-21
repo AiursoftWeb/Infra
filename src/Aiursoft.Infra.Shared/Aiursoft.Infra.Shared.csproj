@@ -1,13 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Aiursoft.Infra.Shared</AssemblyName>
+    <RootNamespace>Aiursoft.Infra.Shared</RootNamespace>
+    <IsTestProject>false</IsTestProject>
+    <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Aiursoft.CSTools" Version="7.0.3" />
   </ItemGroup>
-
 </Project>

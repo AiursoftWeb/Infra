@@ -1,13 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Aiursoft.Infra.AppCenter.Sdk</AssemblyName>
+    <RootNamespace>Aiursoft.Infra.AppCenter.Sdk</RootNamespace>
+    <IsTestProject>false</IsTestProject>
+    <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Aiursoft.Infra.Sdk.Framework\Aiursoft.Infra.Sdk.Framework.csproj" />
   </ItemGroup>
-
 </Project>

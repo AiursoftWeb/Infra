@@ -1,18 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Aiursoft.Infra.ApiApp.Framework</AssemblyName>
+    <RootNamespace>Aiursoft.Infra.ApiApp.Framework</RootNamespace>
+    <IsTestProject>false</IsTestProject>
+    <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Aiursoft.Infra.WebShared\Aiursoft.Infra.WebShared.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Aiursoft.AiurProtocol.Server" Version="7.0.11" />
     <PackageReference Include="Aiursoft.DocGenerator" Version="7.0.0" />
   </ItemGroup>
-
 </Project>
