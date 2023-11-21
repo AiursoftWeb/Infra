@@ -18,9 +18,9 @@ stateDiagram-v2
 
 ```mermaid
 stateDiagram-v2
-    Shared --> CSTools
-    Sdk.Framework --> Shared
     Sdk.Framework --> AiurProtocol
+    Sdk.Framework --> Shared
+    Shared --> CSTools
     ApiApp.Framework --> WebShared
     ApiApp.Framework --> DocGenerator
     ApiApp.Framework --> AiurProtocol.Server
