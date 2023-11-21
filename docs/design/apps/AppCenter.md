@@ -9,34 +9,33 @@
 AppCenter 的数据库中只下面几个表：
 
 * Apps，用于存储 App 的信息。
-* Permissions，用于存储所有可能的权限。
+* AppExposedPermissions，用于存储所有可能的权限。
 * AppAssignedPermissions，用于存储 App 的权限。
 * PermissionUseLogs，用于存储 Permission 的使用记录，以用于限流和统计。
 * TokenAssignLogs，用于存储 Token 的分配记录，以用于限流和统计。
 
-### App
+### Apps
 
-App 有一个所属关系，每个 App 都有一个所属 App，所属 App 可以创建子 App，子 App 也可以递归创建子 App。
+Apps 有一个所属关系，每个 App 都有一个所属 App，所属 App 可以创建子 App，子 App 也可以递归创建子 App。
 
-App 具有的属性有：
+Apps 具有的属性有：
 
-* AppId，App 的唯一标识符。
+* AppId，App 的唯一标识符。是一串 GUID。
 * AppName，App 的名称。
 * AppSecret，App 的密钥。
 * CreateTime，App 的创建时间。
 * ParentAppId，App 的所属 App 的 AppId。
-* AppPermissions[], 也就是凭借此 App 能够申请到的 AppToken 的权限。
-* ExposedPermissions[], 也就是此 App 提供给其他 App 的 AppToken 的权限。
+* AssignedPermissions[], 也就是凭借此 App 能够申请到的 AppToken 的权限。实际存储在 AppAssignedPermissions 表中。
+* ExposedPermissions[], 也就是此 App 提供给其他 App 的 AppToken 的权限。实际存储在 AppExposedPermissions 表中。
 
 AppCenter 应用本身也是一个 App，其会在应用程序第一次加载时播种本身。其没有任何权限。这只是为了让任意一个App的 BelongToAppId 都不为空。播种时，AppCenter 本身的 BelongToAppId 为其自身的 AppId，并且 00000000-0000-0000-0000-000000000000。
 
-### Permissions
+### AppExposedPermissions
 
-Permissions 是一个权限表。其权限是以这个 App 的行为，在整个目录中进行操作的含义。
+AppExposedPermissions 是一个权限表。其权限是以这个 App 的行为，在整个目录中进行操作的含义。
 
-Permissions 具有的属性有：
+AppExposedPermissions 具有的属性有：
 
-* ID, 自增长的 ID。
 * PermissionId，权限的唯一标识符。是一串 GUID。
 * BelongToAppId，权限所属的 App 的 AppId。
 * PermissionTag，权限的标签。这是为了方便在前端显示的。例如：`Apps`，`Buckets`，`Files`。
