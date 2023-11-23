@@ -3,7 +3,7 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.cn/aiursoft/infra/-/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/infra/badges/master/pipeline.svg)](https://gitlab.aiursoft.cn/aiursoft/infra/-/pipelines)
 [![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/infra/badges/master/coverage.svg)](https://gitlab.aiursoft.cn/aiursoft/infra/-/pipelines)
-[![ManHours](https://manhours.aiursoft.cn/gitlab/gitlab.aiursoft.cn/aiursoft/infra)](https://gitlab.aiursoft.cn/aiursoft/infra/-/commits/master?ref_type=heads)
+[![ManHours](https://manhours.aiursoft.cn/gitlab/gitlab.aiursoft.cn/aiursoft/infra.svg)](https://gitlab.aiursoft.cn/aiursoft/infra/-/commits/master?ref_type=heads)
 
 <!-- [![NuGet version (Aiursoft.Identity)](https://img.shields.io/nuget/v/Aiursoft.Identity.svg)](https://www.nuget.org/packages/Aiursoft.Identity/) -->
 <!-- [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.aiursoft.com%2F%3Fshow%3Ddirect)](https://www.aiursoft.com) -->
