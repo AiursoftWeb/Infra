@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiursoft.Infra.Shared", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiursoft.Infra.WebShared", "src\Aiursoft.Infra.WebShared\Aiursoft.Infra.WebShared.csproj", "{56BB4AC5-5C76-4AA4-94E8-39446AF26087}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7D8141D4-EED9-4228-B20F-7A5D09DE9250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aiursoft.Infra.AppCenter.Tests", "tests\AppCenter.Tests\Aiursoft.Infra.AppCenter.Tests.csproj", "{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,7 @@ Global
 		{7F4E5465-8EA9-49B7-A014-3AA59B6115E9} = {14DA105A-73BC-4114-A6B5-F92B3FD4A4EF}
 		{C0BE029B-F867-4A11-A6AF-238552EAD47D} = {14DA105A-73BC-4114-A6B5-F92B3FD4A4EF}
 		{56BB4AC5-5C76-4AA4-94E8-39446AF26087} = {14DA105A-73BC-4114-A6B5-F92B3FD4A4EF}
+		{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6} = {7D8141D4-EED9-4228-B20F-7A5D09DE9250}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{534B21D7-A77D-4A54-B4E7-E6CB7E4D5DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +63,9 @@ Global
 		{56BB4AC5-5C76-4AA4-94E8-39446AF26087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56BB4AC5-5C76-4AA4-94E8-39446AF26087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56BB4AC5-5C76-4AA4-94E8-39446AF26087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2FF1F0-6B30-456F-8B20-5104E45CC9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

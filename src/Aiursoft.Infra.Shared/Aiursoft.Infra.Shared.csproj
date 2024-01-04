@@ -10,6 +10,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.CSTools" Version="7.0.3" />
+    <PackageReference Include="Aiursoft.CSTools" Version="7.0.11" />
   </ItemGroup>
 </Project>
