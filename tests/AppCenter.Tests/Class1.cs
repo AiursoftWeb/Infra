@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AppCenter.Tests;
+namespace Aiursoft.Infra.AppCenter.Tests;
 
 [TestClass]
 public class BasicTests
