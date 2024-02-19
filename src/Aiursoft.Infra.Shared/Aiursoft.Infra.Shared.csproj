@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AssemblyName>Aiursoft.Infra.Shared</AssemblyName>
     <RootNamespace>Aiursoft.Infra.Shared</RootNamespace>
     <IsTestProject>false</IsTestProject>
@@ -10,6 +10,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.CSTools" Version="7.0.14" />
+    <PackageReference Include="Aiursoft.CSTools" Version="8.0.0" />
   </ItemGroup>
 </Project>
