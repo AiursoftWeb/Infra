@@ -1,6 +1,3 @@
 ﻿namespace Aiursoft.Infra.WebShared;
 
-public class Class1
-{
-
-}
+public class Class1;

@@ -1,6 +1,3 @@
 ﻿namespace Aiursoft.Infra.Sdk.Framework;
 
-public class Class1
-{
-
-}
+public class Class1;

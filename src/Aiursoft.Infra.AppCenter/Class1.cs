@@ -1,6 +1,3 @@
 ﻿namespace Aiursoft.Infra.AppCenter;
 
-public class Class1
-{
-
-}
+public class Class1;
