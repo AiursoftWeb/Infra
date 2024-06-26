@@ -13,6 +13,6 @@
     <ProjectReference Include="..\Aiursoft.Infra.Shared\Aiursoft.Infra.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.AiurProtocol" Version="8.0.5" />
+    <PackageReference Include="Aiursoft.AiurProtocol" Version="8.0.6" />
   </ItemGroup>
 </Project>
