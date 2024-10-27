@@ -14,6 +14,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Aiursoft.AiurProtocol.Server" Version="8.0.20" />
-    <PackageReference Include="Aiursoft.DocGenerator" Version="8.0.1" />
+    <PackageReference Include="Aiursoft.DocGenerator" Version="8.0.2" />
   </ItemGroup>
 </Project>
