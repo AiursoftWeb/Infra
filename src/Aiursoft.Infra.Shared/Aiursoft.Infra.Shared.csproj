@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AssemblyName>Aiursoft.Infra.Shared</AssemblyName>
     <RootNamespace>Aiursoft.Infra.Shared</RootNamespace>
     <IsTestProject>false</IsTestProject>
