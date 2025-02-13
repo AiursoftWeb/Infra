@@ -13,7 +13,7 @@
     <ProjectReference Include="..\Aiursoft.Infra.WebShared\Aiursoft.Infra.WebShared.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.AiurProtocol.Server" Version="9.0.3" />
+    <PackageReference Include="Aiursoft.AiurProtocol.Server" Version="9.0.4" />
     <PackageReference Include="Aiursoft.DocGenerator" Version="9.0.1" />
   </ItemGroup>
 </Project>
